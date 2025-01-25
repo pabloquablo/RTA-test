@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 20px;
     background-color: #f0f0f0; 
-    background-image: linear-gradient(to bottom right, #f0f0f0, #e0e0e0); /* Subtle background gradient */
+    background-image: linear-gradient(to bottom right, #f0f0f0, #e0e0e0); 
 }
 
 .container {
@@ -11,8 +11,6 @@ body {
     padding: 20px;
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    /* Add a subtle highlight */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 0 10px rgba(255, 255, 255, 0.2); 
 }
 
@@ -20,22 +18,20 @@ h1 {
     color: #333;
     text-align: center;
     margin-bottom: 30px;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); 
 }
 
 h2 {
     color: #007bff; 
     margin-top: 40px;
-    border-bottom: 2px solid #007bff; /* Add a colored border */
+    border-bottom: 2px solid #007bff; 
     padding-bottom: 5px; 
 }
 
-/* Add a gradient to the headings */
+/* Corrected heading style */
 h1, h2 {
-    background-image: linear-gradient(to right, #fff, #f0f0f0); 
-    background-clip: text;
-    -webkit-background-clip: text; /* For Safari */
-    color: transparent; 
+    background-image: none; /* Remove previous background-image */
+    color: #007bff; /* Set the text color explicitly */ 
 }
 
 p {
