@@ -2,14 +2,14 @@ body {
     font-family: sans-serif;
     margin: 20px;
     background-color: #f0f0f0; 
-    background-image: linear-gradient(to bottom right, #f0f0f0, #e0e0e0, #c6c6c6, #999999, #666666, #333333, #000000); 
+    background-image: linear-gradient(to bottom right, #f0f0f0, #f4f4f4, #f8f8f8, #fbfbfb, #ffffff); 
 }
 
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #f8f8f8; /* Slightly lighter background for the container */
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 0 10px rgba(255, 255, 255, 0.2); 
 }
