@@ -32,11 +32,6 @@ h2 {
     padding-bottom: 5px; /* Add padding below the heading */
 }
 
-h1, h2 {
-    background-image: none; /* Remove background image */
-    color: #007bff; /* Set text color */
-}
-
 p {
     color: #555; /* Set text color */
     line-height: 1.6; /* Set line height */

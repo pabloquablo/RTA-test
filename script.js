@@ -10,7 +10,7 @@ window.onload = function() {
         const fadeIn = () => {
             let opacity = 0;
             const increaseOpacity = () => {
-                opacity += 0.05;
+                opacity = parseFloat(opacity) + 0.05;
                 article.style.opacity = opacity;
 
                 // Continue the animation until opacity reaches 1 (fully visible)
