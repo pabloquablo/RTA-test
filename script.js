@@ -22,6 +22,6 @@ window.onload = function() {
         };
 
         // Delay the fade-in effect based on the article's index
-        setTimeout(fadeIn, 500 * index); 
+        setTimeout(fadeIn, 500 * index);
     });
 };
