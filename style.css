@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 20px;
     background-color: #f0f0f0; 
-    background-image: linear-gradient(to bottom right, #f0f0f0, #e0e0e0, #c6c6c6, #8a09e0, #9909e0, #a809e0, #b709e0, #c709e0, #d609e0, #e509e0, #f409e0, #ff09e0); 
+    background-image: linear-gradient(to bottom right,#8a09e0, #9909e0, #a809e0, #b709e0, #c709e0, #d609e0, #e509e0, #f409e0, #ff09e0); 
 }
 
 .container {
