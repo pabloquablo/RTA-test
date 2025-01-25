@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 20px;
     background-color: #f0f0f0; 
-    background-image: linear-gradient(to bottom right, #f0f0f0, #e0e0e0); 
+    background-image: linear-gradient(to bottom right, #f0f0f0, #e0e0e0, #c6c6c6, #999999, #666666, #333333, #000000); 
 }
 
 .container {
@@ -28,10 +28,9 @@ h2 {
     padding-bottom: 5px; 
 }
 
-/* Corrected heading style */
 h1, h2 {
-    background-image: none; /* Remove previous background-image */
-    color: #007bff; /* Set the text color explicitly */ 
+    background-image: none; 
+    color: #007bff; 
 }
 
 p {
